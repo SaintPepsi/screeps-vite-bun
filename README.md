@@ -1,4 +1,4 @@
-Screeps + Typescript + Vite + Bun + grunt = nice
+Screeps + Typescript + Vite + Bun = nice
 
 Copy `example.screeps.json` to `screeps.json` and put in your credentials.
 
