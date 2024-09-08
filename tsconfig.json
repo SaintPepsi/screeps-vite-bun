@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "useDefineForClassFields": true,
+        "module": "CommonJS",
+        "lib": ["ES6", "dom"],
+        "skipLibCheck": true,
+        "outDir": "dist",
+
+        /* Bundler mode */
+        // "moduleResolution": "bundler",
+        "allowImportingTsExtensions": true,
+        "isolatedModules": true,
+        "moduleDetection": "force",
+        "noEmit": true,
+
+        /* Linting */
+        "strict": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noFallthroughCasesInSwitch": true,
+        "types": ["@types/screeps"]
+    },
+    "include": ["src"]
+}
